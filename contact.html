@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/resetCSS.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <button>
+            <a href="index.html">about</a>
+        </button>
+
+        <button>
+            <a href="digitalPortfolio.html">websites</a>
+        </button>
+
+        <button>
+            <a href="contact.html">contact</a>
+        </button>
+    </nav>
+
+
+
+    <header>
+        <h1>Monica Bongue-Bartelsman</h1>
+    </header>
+
+    <div class="decoration">
+    </div>
+
+    <section>
+        <h1>Monica Bongue</h1>
+
+        <form action="mailto:muddyforkfarm@gmail.com" method="post" enctype="”multipart/form-data”">
+            Name: <input type="text">
+            Email:<input type="text ">
+            Message: <input type="text ">
+            <br> <input id="thanks" class="teal" type="submit" value="submit" onclick="message()">
+
+        </form>
+
+
+    </section>
+
+    <div class="footer">
+        <p></p>
+    </div>
+
+
+</body>
+
+
+<script>
+    function message() {
+        document.getElementById("thanks").innerHTML = "Thanks for your message!";
+    }
+</script>
+
+</html>
