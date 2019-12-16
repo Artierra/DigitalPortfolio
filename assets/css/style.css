@@ -13,28 +13,41 @@ header {
     /*float: left;*/
     background-color: #4aaaa5;
     border-radius: 4%;
-    width: 40%;
+    width: 90%;
     padding: 2%;
     margin: 2%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#365b51+5,6dbfa1+99,7cbcb8+99 */
+    background: #365b51;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #365b51 5%, #6dbfa1 99%, #7cbcb8 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #365b51 5%, #6dbfa1 99%, #7cbcb8 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #365b51 5%, #6dbfa1 99%, #7cbcb8 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#365b51', endColorstr='#7cbcb8', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
 }
 
+/* 
 .navbar {
-    /* float: right; */
+
     text-align: center;
     padding: 2px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-}
+} */
 
 nav {
-    /* float: right; */
-    width: 45%;
+
+    width: 90%;
 }
 
 .decoration {
     height: 5%;
-    border-top: 2px solid #4aaaa5;
+    border-top: 3px solid #4aaaa5;
     padding: 2%;
     margin: 2%;
     width: 92%;
@@ -72,15 +85,26 @@ h2 {
 }
 
 section {
-    /* float: left;*/
+
     background-color: rgb(19, 19, 41);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#18447c+2,99dbdd+100,a2c8e5+100 */
+    background: #18447c;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #010a16 2%, #a2c8e5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #010a16 2%, #4d6272 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #010a16 2%, #4d6272 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#18447c', endColorstr='#a2c8e5', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 4%;
     padding: 2%;
     margin: 2%;
     width: 92%;
 }
 
 .gallery {
-    /* float: left;*/
     padding: 2%;
     margin: 2%;
     width: 42%
@@ -101,16 +125,11 @@ section {
     width: 42%
 }
 
-/* .container {
-    position: relative;
-    display: inline-block;
-    width: 46%;
-    height: 46% */
-/* } */
 
 .text-block {
     width: 100%;
-    height: 10%: position: absolute;
+    height: 10%;
+
     bottom: 2%;
     right: 25%;
     background-color: rgb(3, 63, 63);
@@ -149,7 +168,30 @@ p {
     bottom: 0;
     width: 100%;
     background-color: #666666;
-    height: 20px;
+    height: 60px;
     padding: 4px;
-    border-top: solid 3px #4aaaa5
+    margin: 4px;
+    border-top: solid 3px #4aaaa5;
+    text-align: center;
+
+}
+
+#linkedin {
+    padding-left: 30px;
+    background-image: url('../images/linkedinLogo.jpg');
+    height: 30px;
+    line-height: 30px;
+}
+
+#github {
+    padding-left: 40px;
+    background-image: url('../images/githubLogo2.png');
+    height: 40px;
+    line-height: 40px;
+}
+
+.websitelinks {
+    padding: 4%;
+    margin: 4%;
+    border: 4%
 }
