@@ -1,8 +1,8 @@
 body {
 
     width: 100%;
-    /* background-color: rgb(170, 138, 138); */
-    background-image: url("../images/iceOnWindow.jpg");
+    background-color: rgb(168, 206, 203);
+    /* background-image: url("../images/iceOnWindow.jpg"); */
     background-repeat: no-repeat;
     background-image: cover;
     background-position: center;
